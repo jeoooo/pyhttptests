@@ -34,8 +34,8 @@ def insert_website_status(school_id, website_id, status_code, description, api_k
     payload = {
         'school_id': school_id,
         'website_id': website_id,
-        'status_code': status_code,
-        'description': description,
+        'status_code': 503,
+        'description': 'ERROR',
         'timestamp': timestamp,
         'api_key': api_key,  # Include your API key here
     }
